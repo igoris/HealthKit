@@ -79,6 +79,7 @@
     <framework src="HealthKit.framework" weak="true" />
 
     <hook type="after_plugin_install" src="scripts/after-plugin-install.js" />
+    <hook type="after_platform_add" src="scripts/after-platform-add.js" />
   </platform>
 
 </plugin>
